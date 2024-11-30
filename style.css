@@ -52,8 +52,7 @@ header img{
     font-size: 1rem;
     padding-bottom: 1rem;
 }
-#div-header{
-    
+#div-header{    
     font-size: 1.2rem;
     display: flex;
 }
@@ -118,7 +117,7 @@ padding-inline: 25%;
     
 }
 .aside-footer{
-    width: fit-content;
+    padding-top: 2rem;
     display: flex; 
     justify-content: space-between;
 }
@@ -138,44 +137,102 @@ padding-inline: 25%;
 }
 
 #article-works{
-    background-color: tomato;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5rem;    
 }
 #works-title{
     text-align: center;
-    border: 4px solid blue;
 }
 #works-img{
-
     display: flex;
     flex-direction: row;
-    border: 4px solid green;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
-
+#utn a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+}
+#coderhouse{
+    filter: invert(100%);
+}
 
 
 /*Section (Conocimientos)*/
 
-#list-con{
-    
-    
+#article-con{
+    padding-inline: 25%;
+    margin-bottom: 4rem;       
 }
-
+#title-con{
+    padding-bottom: 2rem;
+}
+#grid-con{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(3, 100px);
+    gap: 1rem;
+}
+.colum-con li{
+    margin-bottom: 1rem;   
+}
 .item-con{
-    
-    width: fit-content;
-    height: fit-content;
-    border: 1px solid black;
-    
+    padding: .3rem;
+    display: block;
+    min-width: 100px;
+    min-height: 80px;
+    border: 1px solid black; 
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
 }
 .item-con p{
     width: fit-content;
     margin: 0 auto;
 }
 .item-con img{
+    margin-inline: 25%;
     width: 3rem;
 }
 
+/*PROYECTOS*/
 
+#article-pro{
+    padding-inline: 25%;
+}
+#article-pro h2{
+    padding-block: 2rem;
+}
+.section-pro{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 1.5rem 1rem 2rem 1rem ;
+    margin-block: 1rem;
+}
+.section-pro div{
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: .4rem;    
+}
+.subt-pro{
+    filter: invert(50%);
+    font-size: .8rem;
+}
+.section-pro .text-pro{
+    margin-top: .9rem;
+} 
+
+footer{
+    margin-block: 3rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    filter: invert(50%);
+}
 
 
 
