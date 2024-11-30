@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
+    <link rel="stylesheet" href="style-tienda.css">
 </head>
 <body>
-    <header>
-        <p>Cupon de descuento</p>
-        <nav>
-            <a href="">Crear cuenta</a>
-            <a href="">Iniciar sesion</a>
-            <a href="100-busqueda-blog.html"><img width="18px" src="imagenes/029-search.png" alt="Lupa"></a>
-            <img width="18px" src="imagenes/028-shoping cart.png" alt="Carrito">
-            <p>Dinero acumulado del carrito</p>    
-            <a href=""><img width="18px" src="imagenes/027-instagram logo.png" alt="instagram logo">Instagram de la marca</a>            
+    <header id="header">
+        <p id="top-bar">Cupon de descuento</p>
+        <nav id="nav-bar">
+            <div id="left-bar">
+                <a id="create" href="">Crear cuenta</a>
+                <a id="sign-in" href="">Iniciar sesion</a>
+            </div> 
+            <div id="right-bar">   
+                <a id="search" href="100-busqueda-blog.html"><img src="imagenes/029-search.png" alt="Lupa"></a>
+                <a id="cart" href=""><img src="imagenes/028-shoping cart.png" alt="Carrito"></a>
+                <p>0 -</p>
+                <p>$0,00</p>    
+                <a id="instagram" href=""><img src="imagenes/027-instagram logo.png" alt="instagram logo"></a>            
+            </div>
         </nav>
-        <img width="40" src="imagenes/031-paint.png" alt="Logo de la marca">
-        <h2>Tienda online</h2>
+        <div id="logo">
+            <img src="imagenes/031-paint.png" alt="Logo de la marca">
+        </div>
     </header>
-    <main>
-        <nav><a href="">Inicio</a>                       
-            <select>
+    <main id="main">
+        <nav id="main-nav-bar">
+            <a href="">Inicio</a>                       
+            <select id="products">
                 <option disabled selected>Productos</option>
                 <option value="1">Opcion 1</option>
                 <option value="2">Opcion 2</option>
@@ -30,64 +38,108 @@
                 <option value="5">Opcion 5</option>                
             </select>            
             <a href="">Contacto</a>
-            <p><img width="100px" src="imagenes/023-mail van.png" alt="mail van"><br>ENVIOS</p>
-            <p><img width="100px" src="imagenes/026-credit card.png" alt="credit card"><br>FORMAS DE PAGO</p>
-            <p><img width="100px" src="imagenes/037-padlock.png" alt="padlock"><br>COMPRA SEGURA</p>
         </nav>
+        <section id="main-info">
+            <div class="main-item">
+                <img src="imagenes/023-mail van.png" alt="mail van">
+                <p>ENVIOS A TODO EL PAIS</p>
+                <P>COMPRA SIN SALIR DE TU CASA</P>
+            </div>
+            <div id="center-item" class="main-item">
+                <img src="imagenes/026-credit card.png" alt="credit card">
+                <p>FORMAS DE PAGO</p>
+                <P>TODOS LOS MEDIOS DE PAGO</P>
+            </div>
+            <div class="main-item">
+                <img src="imagenes/037-padlock.png" alt="padlock">
+                <p>COMPRA SEGURA</p>
+                <P>PROTEGEMOS TUS DATOS</P>
+            </div>                
+        </section>
     </main>
-    <aside>
-        <ul>
-            <li>
+    <aside id="aside-products">
+        <h1>TODOS LOS PRODUCTOS</h1>
+        <ul id="grid-products">
+            <li class="item-product">
                 <a href=""><img width="30px" src="imagenes/030-package.png" alt="Producto"></a>
                 <a href="">Descripcion del producto</a>    
-                <p>Precio</p>
+                <p>$00,00</p>
             </li>
-            <li>
+            <li class="item-product">
                 <a href=""><img width="30px" src="imagenes/030-package.png" alt="Producto"></a>
                 <a href="">Descripcion del producto</a>    
-                <p>Precio</p>
+                <p>$00,00</p>
             </li>
-            <li>
+            <li class="item-product">
                 <a href=""><img width="30px" src="imagenes/030-package.png" alt="Producto"></a>
                 <a href="">Descripcion del producto</a>    
-                <p>Precio</p>
+                <p>$00,00</p>
             </li>
-            <li>
+            <li class="item-product">
                 <a href=""><img width="30px" src="imagenes/030-package.png" alt="Producto"></a>
                 <a href="">Descripcion del producto</a>    
-                <p>Precio</p>
+                <p>$00,00</p>
+            </li>
+            <li class="item-product">
+                <a href=""><img width="30px" src="imagenes/030-package.png" alt="Producto"></a>
+                <a href="">Descripcion del producto</a>    
+                <p>$00,00</p>
+            </li>
+            <li class="item-product">
+                <a href=""><img width="30px" src="imagenes/030-package.png" alt="Producto"></a>
+                <a href="">Descripcion del producto</a>    
+                <p>$00,00</p>
             </li>
         </ul>
     </aside>
-    <footer>
-        <h3>MEDIOS DE PAGO</h3>
-        <ul>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-            <li><img width="18px" src="imagenes/026-credit card.png" alt="medios de pago"></li>
-        </ul>
-        <h3>MEDIOS DE ENVIO</h3>
-        <ul>
-            <li><img width="18px" src="imagenes/023-mail van.png" alt="medios de envio"></li>
-            <li><img width="18px" src="imagenes/023-mail van.png" alt="medios de envio"></li>
-            <li><img width="18px" src="imagenes/023-mail van.png" alt="medios de envio"></li>
-            <li><img width="18px" src="imagenes/023-mail van.png" alt="medios de envio"></li>
-            <li><img width="18px" src="imagenes/023-mail van.png" alt="medios de envio"></li>
-        </ul>
-        <h3>NUESTRAS REDES SOCIALES</h3>
-        <a href="https://www.instagram.com/"><img width="18px" src="imagenes/027-instagram logo.png" alt="instagram logo"></a>
-        <h3>CONTACTO</h3>
-        <a href="mailto:email@marca.com"><img width="10px" src="imagenes/025-mail.png" alt="mail logo">email@delamarca.com</a>
-        <img width="10px" src="imagenes/023-phone.png" alt="phone logo">Numero telefonico</img>
-        <img width="10px" src="imagenes/022-location.png" alt="ubicacion logo">Calles, Ciudad</img>
-        <img width="10px" src="imagenes/021-rigth arrow.png" alt="mayor que logo"><a href="">Boton de arrepentimiento</a></img>
+    <footer id="footer">
+        <section class="footer-h">
+            <div>
+                <h3>MEDIOS DE PAGO</h3>
+                <ul class="list-icons-footer">   
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                    <li><img src="imagenes/026-credit card.png" alt="medios de pago"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-v">
+            <div>
+                <h3>NUESTRAS REDES SOCIALES</h3>
+                <a href="https://www.instagram.com/"><img class="contact-item-footer" src="imagenes/027-instagram logo.png" alt="instagram logo"></a>
+            </div>    
+        </section>
+        <section class="footer-h">  
+            <h3>MEDIOS DE ENVIO</h3>
+            <div>
+                <ul class="list-icons-footer">
+                    <li><img src="imagenes/023-mail van.png" alt="medios de envio"></li>
+                    <li><img src="imagenes/023-mail van.png" alt="medios de envio"></li>
+                    <li><img src="imagenes/023-mail van.png" alt="medios de envio"></li>
+                    <li><img src="imagenes/023-mail van.png" alt="medios de envio"></li>
+                    <li><img src="imagenes/023-mail van.png" alt="medios de envio"></li>
+                </ul>
+            </div>
+        </section>  
+        <section class="footer-v">
+            <div>
+                <h3>CONTACTO</h3>
+                <ul id="contact-list">
+                    <li><a href="mailto:email@marca.com"><img class="contact-item-footer" src="imagenes/025-mail.png" alt="mail logo">email@delamarca.com</a></li>
+                    <li><img class="contact-item-footer" src="imagenes/023-phone.png" alt="phone logo">Numero telefonico</img></li>
+                    <li><img class="contact-item-footer" src="imagenes/022-location.png" alt="ubicacion logo">Calles, Ciudad</img></li>
+                    <li><img class="contact-item-footer" src="imagenes/021-rigth arrow.png" alt="mayor que logo"><a href="">Boton de arrepentimiento</a></img></li>
+                </ul>
+            </div>
+        </section>
     </footer>
+    <div id="real-footer">©2024- Ivan Balmer</div>
 </body>
 </html>
