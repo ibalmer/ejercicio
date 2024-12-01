@@ -195,7 +195,6 @@ padding-inline: 25%;
 }
 .item-con img{
     display: flex;
-    background-color: blueviolet;
     margin-inline: auto;
     width: 3rem;
 }

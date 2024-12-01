@@ -4,109 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="style-blog.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a target="_blank" href="002-blog.html"><img width="30px" src="imagenes/031-paint.png" alt="paint"></a>
-            <ul>
-                <li><a target="_blank" href="#"></a>Tienda</li>
-                <li><a target="_blank" href="#"></a>Caracteristicas</li>
-                <li><a target="_blank" href="#"></a>Videos</li>
-                <li><a target="_blank" href="#"></a>Noticias</li>
-                <li><a target="_blank" href="#"></a>Podcast</li>
-                <li><a target="_blank" href="#"></a>Productos</li>
-                <li><a target="_blank" href="#"></a>Contacto</li>
+    <header id="header">
+        <nav id="nav-header">
+            <div id="logo-header">
+                <a target="_blank" href="002-blog.html"><img src="imagenes/031-paint.png" alt="paint"></a>
+            </div>
+            <ul id="sec-header">
+                <li class="sec-item"><a target="_blank" href="#">Tienda</a></li>
+                <li class="sec-item"><a target="_blank" href="#">Caracteristicas</a></li>
+                <li class="sec-item"><a target="_blank" href="#">Videos</a></li>
+                <li class="sec-item"><a target="_blank" href="#">Noticias</a></li>
+                <li class="sec-item"><a target="_blank" href="#">Podcast</a></li>
+                <li class="sec-item"><a target="_blank" href="#">Producto</a>s</li>
+                <li class="sec-item"><a target="_blank" href="#">Contacto</a></li>
             </ul>
-            <ul>
-                <li><a target="_blank" href="https://www.instagram.com/"><img width="18px" src="imagenes/027-instagram logo.png" alt=""></a></li>
-                <li><a target="_blank" href="https://www.youtube.com/"><img width="18px" src="imagenes/035-youtube.png" alt=""></a></li>
-                <li><a target="_blank" href="https://www.facebook.com/"><img width="18px" src="imagenes/034-facebook.png" alt=""></a></li>
-            </ul>    
-            <a target="_blank" href="100-busqueda-blog.html"><img width="18px" src="imagenes/029-search.png" alt="Lupa"></a>
+            <ul id="cont-header">
+                <li class="cont-item"><a target="_blank" href="https://www.instagram.com/"><img src="imagenes/027-instagram logo.png" alt=""></a></li>
+                <li class="cont-item"><a target="_blank" href="https://www.youtube.com/"><img src="imagenes/035-youtube.png" alt=""></a></li>
+                <li class="cont-item"><a target="_blank" href="https://www.facebook.com/"><img src="imagenes/034-facebook.png" alt=""></a></li>
+            </ul>
+            <div id="search-header">
+                <a target="_blank" href="100-busqueda-blog.html"><img src="imagenes/029-search.png" alt="Lupa"></a>
+            </div>    
         </nav>
     </header>
-    <main>
-        <article>
-            <a target="_blank" href="#"><img src="imagenes/036-pincture.png" alt="Picture"></a>
-            <a target="_blank" href="#"><h2>Titulo del articulo</h2></a> 
-            <p>autor/tiempo publicado</p>
-            <p>Descripcion del articulo</p>
+    <main id="main">
+        <article id="article-main">
+            <a id="pic-main" target="_blank" href="#"><img src="imagenes/038-picture2.png" alt="Picture"></a>
+            <a id="title-main" target="_blank" href="#"><h2>Titulo del articulo</h2></a> 
+            <ul id="info-main">
+                <li><p id="autor-main">autor</p></li>
+                <li><p id="time-main">tiempo publicado</p></li>
+            </ul>
+            <p id="desc-main">Descripcion del articulo,Descripcion del articulo,Descripcion del articulo,Descripcion del articulo,Descripcion del articulo,Descripcion del articulo.</p>
         </article>
     </main>
    
-    <div>Patrocinador<img width="100px" src="imagenes/036-pincture.png" alt="Picture"></div>
-    <aside>
-        <ul>
-            <li>
-                <p>Video</p>
-                <a target="_blank" href="https://www.youtube.com/"><img width="200" src="imagenes/035-youtube.png" alt="youtube"></a>
-                <a href="#">
-                    <h3>Titulo del video</h3>
-                </a>
-                <p>Descripcion del video</p>
-                <p>Tiempo publicado</p>
-            </li>
-            <li>
-                <p>Video</p>
-                <a target="_blank" href="https://www.youtube.com/"><img width="200" src="imagenes/035-youtube.png" alt="youtube"></a>
-                <a href="#">
-                    <h3>Titulo del video</h3>
-                </a>
-                <p>Descripcion del video</p>
-                <p>Tiempo publicado</p>
-            </li>
-            <li>
-                <p>Video</p>
-                <a target="_blank" href="https://www.youtube.com/"><img width="200" src="imagenes/035-youtube.png" alt="youtube"></a>
-                <a href="#">
-                    <h3>Titulo del video</h3>
-                </a>
-                <p>Descripcion del video</p>
-                <p>Tiempo publicado</p>
-            </li>
-            <li>
-                <p>Video</p>
-                <a target="_blank" href="https://www.youtube.com/"><img width="200" src="imagenes/035-youtube.png" alt="youtube"></a>
-                <a href="#">
-                    <h3>Titulo del video</h3>
-                </a>
-                <p>Descripcion del video</p>
-                <p>Tiempo publicado</p>
-            </li>                
-        </ul>
-        <ul>
-            <li>
-                <p>Anuncio</p>
-                <a target="_blank" href="#"><img width="200" src="imagenes/036-pincture.png" alt="Picture"></a>
-            </li>
-            <li>
-                <p>Anuncio</p>
-                <a target="_blank" href="#"><img width="200" src="imagenes/036-pincture.png" alt="Picture"></a>
-            </li>
-            <li>
-                <p>Anuncio</p>
-                <a target="_blank" href="#"><img width="200" src="imagenes/036-pincture.png" alt="Picture"></a>
-            </li>
-            <li>
-                <p>Anuncio</p>
-                <a target="_blank" href="#"><img width="200" src="imagenes/036-pincture.png" alt="Picture"></a>
-            </li>
-        </ul>
-        <input type="submit" value="Proxima pagina">
+    <div class="sponsor"><img src="imagenes/039-sponsor.png" alt="Picture"></div>
+    <aside id="grid-aside">
+        <div class="div-aside">
+            <p class="header-div">Video</p>
+            <a class="img-div" target="_blank" href="https://www.youtube.com/"><img src="imagenes/035-youtube.png" alt="youtube"></a>
+            <a href="#">
+                <h3>Titulo del video</h3>
+            </a>
+            <p class="desc-div">Descripcion del video</p>
+            <p class="time-div">Tiempo publicado</p>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Anuncio</p>
+            <a class="img-div" target="_blank" href="#"><img src="imagenes/036-pincture.png" alt="Picture"></a>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Video</p>
+            <a class="img-div" target="_blank" href="https://www.youtube.com/"><img src="imagenes/035-youtube.png" alt="youtube"></a>
+            <a href="#">
+                <h3>Titulo del video</h3>
+            </a>
+            <p class="desc-div">Descripcion del video</p>
+            <p class="time-div">Tiempo publicado</p>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Anuncio</p>
+            <a class="img-div" target="_blank" href="#"><img src="imagenes/036-pincture.png" alt="Picture"></a>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Video</p>
+            <a class="img-div" target="_blank" href="https://www.youtube.com/"><img src="imagenes/035-youtube.png" alt="youtube"></a>
+            <a href="#">
+                <h3>Titulo del video</h3>
+            </a>
+            <p class="desc-div">Descripcion del video</p>
+            <p class="time-div">Tiempo publicado</p>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Anuncio</p>
+            <a class="img-div" target="_blank" href="#"><img src="imagenes/036-pincture.png" alt="Picture"></a>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Video</p>
+            <a class="img-div" target="_blank" href="https://www.youtube.com/"><img src="imagenes/035-youtube.png" alt="youtube"></a>
+            <a href="#">
+                <h3>Titulo del video</h3>
+            </a>
+            <p class="desc-div">Descripcion del video</p>
+            <p class="time-div">Tiempo publicado</p>
+        </div>
+        <div class="div-aside">
+            <p class="header-div">Anuncio</p>
+            <a class="img-div" target="_blank" href="#"><img src="imagenes/036-pincture.png" alt="Picture"></a>
+        </div>
+        
+        
     </aside>
-    <div>Patrocinador<img width="100px" src="imagenes/036-pincture.png" alt="Picture"></div>
-    <footer>
-        <h3>MARCA © TODOS LOS DERECHOS RESERVADOS </h3>
-        <h5>Envios de material:</h5>
-        <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
-        <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
-        <h5>Editorial</h5>
-        <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
-        <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
-        <h5>Publicidad:</h5>
-        <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
-        <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+    <div class="sponsor"><img  src="imagenes/039-sponsor.png" alt="Picture"></div>
+    <footer id="footer">
+        <h3 id="title-footer">MARCA © TODOS LOS DERECHOS RESERVADOS </h3>
+        <div class="div-footer">            
+            <h5>Envios de material:</h5>
+            <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+            <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+        </div>
+        <div class="div-footer">
+            <h5>Editorial</h5>
+            <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+            <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+        </div>
+        <div class="div-footer">
+            <h5>Publicidad:</h5>
+            <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+            <p>Nombre/<a href="mailto:mail@marca.com">mail@marca.com</a></p>
+        </div>
     </footer>
 </body>
 </html>
