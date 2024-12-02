@@ -113,13 +113,14 @@ a:link, a:visited, a:hover, a:active {
     border-bottom: 2px solid black;
     padding-bottom: 4rem;
     text-align: center;
+    margin-inline: 10%;
 }
 #aside-products h1{
     margin: 1.5rem;
 }
 #grid-products{
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
     gap: 2rem;
     justify-content: center;
@@ -132,7 +133,7 @@ a:link, a:visited, a:hover, a:active {
     border-radius: 16px;
 }
 .item-product a img{
-    width: 20rem;
+    width: 100%;
 }
 
 /*FOOTER*/

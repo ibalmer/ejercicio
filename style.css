@@ -36,7 +36,10 @@ header img{
 }
 #main h1{
     font-size: 3.4rem;
-    color: rgb(67, 127, 255);
+    /* color: rgb(67, 127, 255); */
+    background-image: linear-gradient(166deg, rgba(90,32,205,1) 0%, rgba(26,121,115,1) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #main h4{
     font-size: 1.6rem;
@@ -62,7 +65,7 @@ header img{
     row-gap: 2rem;
 }
 .div-item{
-    align-content: center;
+    align-items: center;
     padding-block: .4rem;
     padding-inline: .8rem;
     margin-right: 1rem;
@@ -71,10 +74,11 @@ header img{
     border: 3px solid gray;
     border-radius: 10px;
     border-bottom: 7px solid gray;
-
 }
-.div-item img{
-    
+.div-item:hover{
+    box-shadow: 0 0.5rem 0.4rem rgba(0,0,0,0.5);
+}
+.div-item img{   
     width: 1.2rem;
 }
 
@@ -95,8 +99,10 @@ padding-inline: 25%;
 .aside-article{
     border: 2px solid black;
     border-radius: 8px;
-    width: fit-content;
-        
+    width: fit-content;       
+}
+.aside-article:hover{
+    box-shadow: 0 0.5rem 0.4rem rgba(0,0,0,0.5);
 }
 .banner{
     padding: .2rem;
@@ -107,12 +113,10 @@ padding-inline: 25%;
     width: 100%;   
 }
 .aside-article h4{
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;  
 }
 .aside-article p{
-    font-size: 1rem;
-    
+    font-size: 1rem;   
 }
 .aside-footer{
     padding-top: 2rem;
@@ -129,11 +133,9 @@ padding-inline: 25%;
     font-size: .8rem;
     color: grey;
 }
-
 .clip img{
      width: 2rem;
 }
-
 #article-works{
     display: flex;
     align-items: center;
@@ -161,7 +163,7 @@ padding-inline: 25%;
 }
 
 
-/*Section (Conocimientos)*/
+/*ARTICLE (Conocimientos)*/
 
 #article-con{
     padding-inline: 25%;
@@ -176,9 +178,6 @@ padding-inline: 25%;
     grid-template-rows: repeat(3, auto);
     gap: 1rem;
 }
-.colum-con li{
-    margin-bottom: 1rem;   
-}
 .item-con{
     padding: .3rem;
     display: block;
@@ -187,7 +186,8 @@ padding-inline: 25%;
     border: 1px solid black; 
     border-radius: 14px;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    box-shadow: 0 0.5rem 0.4rem rgba(0,0,0,0.5);
 }
 .item-con p{
     width: fit-content;
@@ -212,6 +212,7 @@ padding-inline: 25%;
     border-radius: 6px;
     padding: 1.5rem 1rem 2rem 1rem ;
     margin-block: 1rem;
+    box-shadow: 0 0.5rem 0.4rem rgba(0,0,0,0.5);
 }
 .section-pro div{
     display: flex; 
